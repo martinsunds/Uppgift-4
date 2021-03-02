@@ -3,8 +3,7 @@ package app;
 import java.rmi.RemoteException;
 import java.util.ArrayList;
 
-import org.tempuri.WebServiceUppgift4Soap;
-import org.tempuri.WebServiceUppgift4SoapProxy;
+
 
 public class Application {
 
@@ -18,19 +17,7 @@ public class Application {
 		
 		
 		
-		/*WebServiceUppgift4Soap proxy = new WebServiceUppgift4SoapProxy();
-       
-       try {
-		Object[] carList = proxy.getCars();
-		
-		for (Object o : carList) {
-		System.out.println(o.toString());
-		}
-	} catch (RemoteException e) {
-		// TODO Auto-generated catch block
-		e.printStackTrace();
-	}
-*/		
+	
 	}
 
 }
